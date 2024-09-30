@@ -3,13 +3,13 @@ import { bannerImg, removebg } from "../../assets/index";
 
 const Rigthbanner = () => {
   return (
-    <div className=" w-full lg:w-1/2 flex justify-center items-center relative">
+    <div className="w-full lgl:w-1/2 flex justify-center items-center relative">
       <img
-        className="w-[500px] h-[680px] z-10"
+        className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
         src={removebg}
         alt="bannerImg"
       />
-      <div className="absolute bottom-0 w-[500px] h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-none flex justify-center items-center"></div>
+      <div className="w-full pt-10 pb-20 flex flex-col gap-10 xl:gap-0 lgl:flex-row items-center font-titleFont "></div>
     </div>
   );
 };

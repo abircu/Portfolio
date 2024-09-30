@@ -2,31 +2,31 @@ export const navLinksdata=[
     {
         _id:1001,
         title:"Home",
-        Link:"home",
+        link:"home",
     },
     {
         _id:1002,
         title:"Features",
-        Link:"features",
+        link:"features",
     },
     {
         _id:1003,
         title:"Project",
-        Link:"project",
+        link:"project",
     },
     {
         _id:1004,
         title:"Resume",
-        Link:"resume",
+        link:"resume",
     },
     {
         _id:1005,
         title:"Testimonial",
-        Link:"testimonial",
+        link:"testimonial",
     },
     {
         _id:1006,
         title:"Contacts",
-        Link:"contacts",
+        link:"contacts",
     }
 ]

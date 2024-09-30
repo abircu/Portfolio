@@ -11,12 +11,12 @@ const Resume = () => {
   const [experienceData, setSetExperienceData] = useState(false);
   const [achivementData, setAchivementData] = useState(false);
   return (
-    <section id="resume" className="w-full py-20 border-b-[1px] border-black">
+    <section id="resume" className="w-full  py-20 border-b-[1px] border-black">
       <div className="flex justify-center items-center text-center">
         <Title title={"Years of experience"} des={"my rusume"} />
       </div>
       <div className="mt-10">
-        <ul className="w-full grid grid-cols-2 md:grid-cols-4">
+        <ul className="w-full grid grid-cols-2 md:grid-cols-2  lgl:grid-cols-4">
           <li
             onClick={() =>
               setEducatioData(true) &

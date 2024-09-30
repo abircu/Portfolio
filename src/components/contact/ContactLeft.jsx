@@ -3,7 +3,7 @@ import { contactImg } from "../../assets/index";
 import { FaWhatsapp, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 const ContactLeft = () => {
   return (
-    <div className="w-[35%]  h-full bg-gradient-to-r from-[#1e2024] to-[#23272b]  p-8 rounded-lg shadow-shadowOne flex flex-col gap-6 justify-center">
+    <div className=" w-full lgl:w-[35%]  h-full bg-gradient-to-r from-[#1e2024] to-[#23272b]  p-8 rounded-lg shadow-shadowOne flex flex-col gap-6 justify-center">
       <img
         className="w-full h-64 object-cover rounded-lg mb-2"
         src={contactImg}
@@ -31,13 +31,20 @@ const ContactLeft = () => {
         <h2 className="uppercase ">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+            <a href="https://www.facebook.com/abirhasan.salman.3/">
+              <FaFacebookF />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaWhatsapp />
+            <a href="https://wa.link/mc6v8d">
+              <FaWhatsapp />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
+            <a href="https://www.linkedin.com/in/md-sohel-rana-835498205/">
+              {" "}
+              <FaLinkedinIn />
+            </a>
           </span>
         </div>
       </div>

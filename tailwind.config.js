@@ -6,6 +6,16 @@ export default {
   ],
   theme: {
     extend: {
+      screens:{
+        xs: "320px",
+        sm: "375px",
+        sml: "500px",
+        md: "667px",
+        mdl: "768px",
+        lg: "960px",
+        lgl: "1024px",
+        xl: "1280px",
+      },
       fontFamily: {
         bodyFont: ['Poppins', 'sans-serif'], 
         titleFont: ['Montserrat', 'sans-serif'], 
@@ -14,7 +24,7 @@ export default {
         bodyColor:"#212428",
         lightText:"#c4cfde",
         boxBg:"linear-gradient(145deg, #le2024, #23272b)",
-        designColor:"#ff014f",
+        designColor:"#87CEEB",
       },
       boxShadow:{
         shadowOne:"10px 10px 19px #1cle22, -10px -10px 19px #23272e",
